@@ -66,9 +66,6 @@ Explainability Tools: Applied SHAP, Anchor Explainers, and Counterfactuals from 
 
 Deployment: Developed a Streamlit web application for interactive access and testing.
 
-📊 Example Impact
-In a simulated business case, reducing false negatives (missed defaulters) resulted in a potential savings of over $330 million, highlighting the importance of cost-sensitive modeling. The project also confirmed no discriminatory bias across key demographics, ensuring ethical and regulatory alignment.
-
 📁 Data Summary
 Total records: ~143,000+
 
