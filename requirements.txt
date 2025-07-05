@@ -1,0 +1,17 @@
+hyperopt
+imbalanced-learn
+matplotlib
+neptune
+neptune_xgboost
+numpy
+pandas
+plotly
+seaborn
+session_info
+scikit-learn
+xgboost
+alibi
+deepchecks
+shap
+tensorflow
+openpyxl
