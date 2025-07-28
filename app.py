@@ -13,19 +13,20 @@ from sklearn.metrics import classification_report, confusion_matrix
 import shap
 
 # Suppress warnings
+# Suppress warnings
 logging.getLogger("streamlit").setLevel(logging.ERROR)
 warnings.filterwarnings('ignore', category=UserWarning, message='.*?pyplot.*?')
 
 def load_model():
     with open('xgboost_model.pkl', 'rb') as file:
         return pickle.load(file)
-    
+
 def main():
-    st.set_page_config(page_title = 'Loan Default Prediction',
-                   page_icon = '💸',
-                   layout = 'wide')
-    st.title("Loan Default Prediction")
-    st.markdown('##### Made by Manmeet Kaur Baxi | [Portfolio](https://manmeetkaurbaxi.com)')
+    st.set_page_config(page_title='AI Loan Prediction and Recovery',
+                       page_icon='💸',
+                       layout='wide')
+    st.title("AI Loan Prediction and Recovery")
+    st.markdown("Made by Soumya Tridandapani")
     
     # Data Loading Section with Progress Bar
     if 'data' not in st.session_state:
